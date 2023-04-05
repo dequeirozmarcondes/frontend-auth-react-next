@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cadastre-se</title>
+        <title>Cadastrar</title>
       </Head>
       <div className={styles.containerCenter}>
         <h1>Cadastre-se</h1>

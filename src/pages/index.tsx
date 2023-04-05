@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cadastre-se</title>
+        <title>Workflow | App</title>
       </Head>
       <div className={styles.containerCenter}>
         <h1>Workflow</h1>

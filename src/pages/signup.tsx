@@ -16,7 +16,7 @@ export default function Home() {
         <title>Cadastre-se</title>
       </Head>
       <div className={styles.containerCenter}>
-        <h1>Workflow</h1>
+        <h1>Cadastre-se</h1>
         {/* <Image
           className={styles.logo}
           src={logoImg}
@@ -26,14 +26,17 @@ export default function Home() {
         /> */}
         <div className={styles.login}>
           <form>
+            <Input type="text" placeholder=" Nome" />
+            <Input type="text" placeholder="Sobrenome" />
             <Input type="text" placeholder="email@exemplo.com.br" />
-            <Input type="password" placeholder="sua senha" />
+            <Input type="password" placeholder="Senha" />
+            <Input type="password" placeholder="Confirme a senha" />
             <Button type="submit" loading={false}>
-              <span className={styles.textButton}>Acessar</span>
+              <span className={styles.textButton}>Cadastrar</span>
             </Button>
           </form>
-          <Link className={styles.text} href="/signup">
-            <span>Não possui uma conta? Cadastre-se</span>
+          <Link className={styles.text} href="/">
+            <span>Já possuí acesso? Faça login no aplicatibo</span>
           </Link>
         </div>
       </div>
